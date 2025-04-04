@@ -12,7 +12,7 @@ public:
     serie() {}
     ~serie() {}
     void EncenderTodo(){
-        this->Encendercantidad[10];
+       this->Encendercantidad(10);
     }
     void Encendercantidad(size_t cantidad){
         for (size_t i = 0; i < cantidad; i++)

@@ -1,6 +1,6 @@
 #include <iostream>
 #include "Foco.hpp"
-#include "serie.hpp"
+#include "Serie.hpp"
 #include<ftxui/dom/elements.hpp>
 #include<ftxui/screen/screen.hpp>
 using namespace ftxui;

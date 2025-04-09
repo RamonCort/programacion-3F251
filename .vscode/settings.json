@@ -1,3 +1,7 @@
 {
-    "cmake.sourceDirectory": "/workspaces/programacion-3F251/FTXUI"
+    "cmake.sourceDirectory": "/workspaces/programacion-3F251/FTXUI",
+    "files.associations": {
+        "iostream": "cpp",
+        "ostream": "cpp"
+    }
 }

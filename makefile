@@ -21,4 +21,10 @@ archivos : bin/archivos
 
 bin/archivos : src/archivos.cpp
 	$(CXX)  $< -o $@ -std=c++17
+pokedex : bin/pokedex
+	./$<
+
+bin/pokedex : src/pokedex.cpp
+	$(CXX)  $< -o $@ -std=c++17
+	
 	
